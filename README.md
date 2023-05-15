@@ -1,4 +1,4 @@
-# Busca Processos nos Tribunais de Justiça dos estados do AL e CE
+# Api de Busca de Processos nos Tribunais de Justiça dos estados do AL e CE
 =============================================================================
 
 **Este é um projeto para fins de teste.**
