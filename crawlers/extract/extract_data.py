@@ -100,8 +100,8 @@ def extrair_processo_grau_2(body):
         dados_processo['lista_movimentacoes_processo'] = lista_movimentacoes_processo
         return dados_processo
 
-# Método evita erro de Nonetype se o find_all não encontrar a tag relaconada,
-# também tiro excesso de espaços em branco do texto.
+# Método evita erro de Nonetype se o find_all não encontrar a tag relacionada,
+# também remove o excesso de espaços em branco do texto.
 def check_data(data: BeautifulSoup):
     if data:
         return data.get_text().strip()

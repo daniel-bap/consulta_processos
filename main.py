@@ -1,6 +1,6 @@
 __author__ = 'Daniel Baptista'
 __contact__ = 'danielbpta@gmail.com'
-__date__ = '2021/05/12'
+__date__ = '2023/05/14'
 __version__ = '1.0'
 from fastapi import FastAPI
 from crawlers.scraper import Scraper

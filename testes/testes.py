@@ -50,14 +50,16 @@ class TesteParser(unittest.TestCase):
 	def test_input(self):
 		nu_processo = '07108025520188020001'
 		if len(nu_processo) < 25:
-			nu_processo = '{}-{}.{}.{}.{}.{}'.format(nu_processo[:7], nu_processo[7:9], nu_processo[9:13], nu_processo[13:14], nu_processo[14:16], nu_processo[16:20])
+			nu_processo = '{}-{}.{}.{}.{}.{}'.format(nu_processo[:7], nu_processo[7:9],\
+					     nu_processo[9:13], nu_processo[13:14], nu_processo[14:16], nu_processo[16:20])
 		#print(nu_processo)
 		self.assertEqual(nu_processo, '0710802-55.2018.8.02.0001')
 
 	"""
 		Eu criei este bloco de código sob a hipótese de que uma parte do número do processo
-		corresponde ao estado do AL ou do CE então fiz esta verificação para adicionar o estado automaticamente 
-		na busca do processo. Se estiver errado então deve-se retornar para a inserção do estado do TJ na consulta.
+		corresponde ao estado do AL ou do CE então fiz esta verificação para adicionar o estado 
+		automaticamente na busca do processo. Se estiver errado então deve-se retornar para a 
+		inserção do estado do TJ na consulta.
 	"""
 	def test_estado_tj(self):
 		nu_processo = '0710802-55.2018.8.02.0001'
