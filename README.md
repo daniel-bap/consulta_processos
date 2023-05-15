@@ -9,6 +9,7 @@ Será necessário desenvolver crawlers para coletar esses dados no tribunal e um
 
 =============================================================================
 # Guia de instalação:
+**Obs** As dicas de instalação descritas abaixo são para ambiente **Linux**.
 - Você precisa ter instalado Python 3.x na sua máquina.
 - Crie um diretório em um local de sua escolha.
 - Faça download do projeto dentro deste diretório.
