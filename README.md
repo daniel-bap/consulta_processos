@@ -1,5 +1,5 @@
 # Busca Processos nos Tribunais de Justiça dos estados do AL e CE
-===============================================================
+=============================================================================
 
 **Este é um projeto para fins de teste.**
 O desafio é fazer uma API que busque dados de um processo em todos os graus dos Tribunais de Justiça
@@ -7,7 +7,7 @@ de Alagoas (TJAL) e do Ceará (TJCE). Geralmente o processo começa no primeiro 
 Você deve buscar o processo em todos os graus e retornar suas informações.
 Será necessário desenvolver crawlers para coletar esses dados no tribunal e uma API para fazer input e buscar o resultado depois.
 
-=================================================================================================================================
+=============================================================================
 # Guia de instalação:
 - Você precisa ter instalado Python 3.x na sua máquina.
 - Crie um diretório em um local de sua escolha.
@@ -26,7 +26,7 @@ Será necessário desenvolver crawlers para coletar esses dados no tribunal e um
 - Abra o browser de sua preferência e cole a seguinte url - http://127.0.0.1:8000/docs
 - Expandir a aba default e inserir os dados abaixo.
 
-Input:
+**Input:**
 Dados que devem ser enviados:
 Número do processo e sigla do estado referente a consulta.
 Para enviar os dados você deve acessar o link http://127.0.0.1:8000/docs
@@ -36,10 +36,10 @@ Ex: nu_processo = 0710802-55.2018.8.02.0001
     estado = ce
 
 - Clique em executar, a Api deve retornar o json com as informações do processo.
-===============================================================================================
-Output:
+
+**Output:**
 A Api retornará os dados em formato json.
-=========================================================================
+
 - Campos extraídos do site:
 * Classe
 * Área
@@ -49,4 +49,4 @@ A Api retornará os dados em formato json.
 * Valor da ação
 * Partes do Processo
 * Lista das Movimentações
-=========================================================================
+=============================================================================
