@@ -1,14 +1,14 @@
 # Busca Processos nos Tribunais de Justiça dos estados do AL e CE
 ===============================================================
 
-Este é um projeto para fins de teste.
+**Este é um projeto para fins de teste.**
 O desafio é fazer uma API que busque dados de um processo em todos os graus dos Tribunais de Justiça
 de Alagoas (TJAL) e do Ceará (TJCE). Geralmente o processo começa no primeiro grau e pode subir para o segundo. 
 Você deve buscar o processo em todos os graus e retornar suas informações.
 Será necessário desenvolver crawlers para coletar esses dados no tribunal e uma API para fazer input e buscar o resultado depois.
 
 =================================================================================================================================
-Guia de instalação:
+# Guia de instalação:
 - Você precisa ter instalado Python 3.x na sua máquina.
 - Crie um diretório em um local de sua escolha.
 - Faça download do projeto dentro deste diretório.
