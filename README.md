@@ -1,8 +1,4 @@
-Busca Processos nos Tribunais de Justiça dos estados do AL e CE
-__author__ = "Daniel Baptista"
-__contact__ = "danielbpta@gmail.com"
-__date__ = "2021/05/12"
-__version__ = "1.0"
+# Busca Processos nos Tribunais de Justiça dos estados do AL e CE
 ===============================================================
 
 Este é um projeto para fins de teste.
